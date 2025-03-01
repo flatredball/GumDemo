@@ -68,6 +68,7 @@
     <Variable>
       <Type>bool</Type>
       <Name>IsXamarinFormsControl</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <Category>Xamarin Forms</Category>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -81,6 +82,7 @@
       <Type>float</Type>
       <Name>Radius</Name>
       <Value xsi:type="xsd:float">16</Value>
+      <Category>Dimensions</Category>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -95,18 +97,20 @@
       <Name>Rotation</Name>
       <Value xsi:type="xsd:float">0</Value>
       <Category>Flip and Rotation</Category>
-      <SetsValue>true</SetsValue>
+      <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
       <Type>State</Type>
       <Name>State</Name>
       <Value xsi:type="xsd:string">Default</Value>
+      <Category>States and Visibility</Category>
       <SetsValue>false</SetsValue>
     </Variable>
     <Variable>
       <Type>bool</Type>
       <Name>Visible</Name>
       <Value xsi:type="xsd:boolean">true</Value>
+      <Category>States and Visibility</Category>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
@@ -125,14 +129,14 @@
     </Variable>
     <Variable>
       <Type>HorizontalAlignment</Type>
-      <Name>X Origin</Name>
+      <Name>XOrigin</Name>
       <Value xsi:type="xsd:int">0</Value>
       <Category>Position</Category>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>X Units</Name>
+      <Name>XUnits</Name>
       <Value xsi:type="xsd:int">0</Value>
       <Category>Position</Category>
       <SetsValue>true</SetsValue>
@@ -146,14 +150,14 @@
     </Variable>
     <Variable>
       <Type>VerticalAlignment</Type>
-      <Name>Y Origin</Name>
+      <Name>YOrigin</Name>
       <Value xsi:type="xsd:int">0</Value>
       <Category>Position</Category>
       <SetsValue>true</SetsValue>
     </Variable>
     <Variable>
       <Type>PositionUnitType</Type>
-      <Name>Y Units</Name>
+      <Name>YUnits</Name>
       <Value xsi:type="xsd:int">1</Value>
       <Category>Position</Category>
       <SetsValue>true</SetsValue>

@@ -63,5 +63,10 @@
     <BaseType>Text</BaseType>
     <DefinedByBase>false</DefinedByBase>
   </Instance>
+  <Instance>
+    <Name>ScreenChangingComponentInstance</Name>
+    <BaseType>ScreenChangingComponent</BaseType>
+    <DefinedByBase>false</DefinedByBase>
+  </Instance>
   <Behaviors />
 </ScreenSave>

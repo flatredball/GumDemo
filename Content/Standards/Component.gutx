@@ -13,6 +13,7 @@
     <Variable>
       <Type>bool</Type>
       <Name>IsXamarinFormsControl</Name>
+      <Value xsi:type="xsd:boolean">false</Value>
       <Category>Xamarin Forms</Category>
       <SetsValue>true</SetsValue>
     </Variable>
@@ -20,7 +21,8 @@
       <Type>State</Type>
       <Name>State</Name>
       <Value xsi:type="xsd:string">Default</Value>
-      <SetsValue>false</SetsValue>
+      <Category>States and Visibility</Category>
+      <SetsValue>true</SetsValue>
     </Variable>
   </State>
   <Behaviors />
